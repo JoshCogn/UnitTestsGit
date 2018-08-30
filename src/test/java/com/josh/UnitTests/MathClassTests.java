@@ -34,5 +34,11 @@ public class MathClassTests {
 		int result = mathClass.add(1, 2);
 		assertEquals(3,result);
 	}
+	
+	@Test
+	public void addTest2() {
+		int result = mathClass.add(2, 2);
+		assertEquals(4,result);
+	}
 
 }
