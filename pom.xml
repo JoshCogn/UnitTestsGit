@@ -46,8 +46,8 @@
 							<include>**/*Test.java</include>
 							<include>**/*Tests.java</include>
 							<include>**/NamedOdd.java</include>
+							<include>AllTests.java</include>
 						</includes>
-
 					</configuration>
 				</plugin>
 			</plugins>

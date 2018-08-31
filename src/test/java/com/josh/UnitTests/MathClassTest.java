@@ -2,30 +2,22 @@ package com.josh.UnitTests;
 
 import static org.junit.Assert.*;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+
 
 public class MathClassTest {
 	
 	MathClass mathClass;
 
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
-	}
-
-	@AfterClass
-	public static void tearDownAfterClass() throws Exception {
-	}
-
-	@Before
+	@BeforeMethod
 	public void setUp() throws Exception {
 		mathClass = new MathClass();
 	}
 
-	@After
+	@AfterMethod
 	public void tearDown() throws Exception {
 	}
 

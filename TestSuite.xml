@@ -4,12 +4,10 @@
 
 	<test name="My Tests" preserve-order="true">
 		<classes>
-			<class name="com.josh.UnitTests.MathClassTest">
-			</class>
-			<class name="com.josh.UnitTests.NamedOdd">
-			</class>
-			<class name="com.josh.UnitTests.MathTestNG">
-			</class>
+			<class name="com.josh.UnitTests.MathClassTest"></class>
+			<class name="com.josh.UnitTests.NamedOdd"></class>
+			<class name="com.josh.UnitTests.MathTestNG"></class>
+			<class name="com.josh.UnitTests.NamedOddTests"></class>
 		</classes>
 	</test>
 
