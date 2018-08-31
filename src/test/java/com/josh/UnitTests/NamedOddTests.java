@@ -8,9 +8,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class MathClassTest {
-	
-	MathClass mathClass;
+public class NamedOddTests {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -22,7 +20,6 @@ public class MathClassTest {
 
 	@Before
 	public void setUp() throws Exception {
-		mathClass = new MathClass();
 	}
 
 	@After
@@ -30,10 +27,10 @@ public class MathClassTest {
 	}
 
 	@Test
-	public void addTest() {
-		int result = mathClass.add(1, 2);
-		assertEquals(3,result);
-		System.out.println("mathClassTest");
+	public void test() {
+		MathClass m = new MathClass();
+		assertEquals(m.add(1, 1), 2);
+		System.out.println("namedOddTests");
 	}
 
 }

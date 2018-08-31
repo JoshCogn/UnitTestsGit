@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Math Tests">
+
+	<test name="My Tests" preserve-order="true">
+		<classes>
+			<class name="com.josh.UnitTests.MathClassTest">
+			</class>
+			<class name="com.josh.UnitTests.NamedOdd">
+			</class>
+			<class name="com.josh.UnitTests.MathTestNG">
+			</class>
+		</classes>
+	</test>
+
+</suite>
