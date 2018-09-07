@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Math Tests" duration-ms="8" started-at="2018-08-31T01:18:16Z" finished-at="2018-08-31T01:18:16Z">
+  <suite name="Math Tests" duration-ms="146" started-at="2018-09-06T06:09:41Z" finished-at="2018-09-06T06:09:42Z">
     <groups>
     </groups>
-    <test name="My Tests" duration-ms="8" started-at="2018-08-31T01:18:16Z" finished-at="2018-08-31T01:18:16Z">
+    <test name="My Tests" duration-ms="146" started-at="2018-09-06T06:09:41Z" finished-at="2018-09-06T06:09:42Z">
+      <class name="com.josh.UnitTests.MathClassTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.josh.UnitTests.MathClassTest@6121c9d6]" name="setUp" is-config="true" duration-ms="15" started-at="2018-09-06T06:09:42Z" finished-at="2018-09-06T06:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addTest()[pri:0, instance:com.josh.UnitTests.MathClassTest@6121c9d6]" name="addTest" duration-ms="11" started-at="2018-09-06T06:09:42Z" finished-at="2018-09-06T06:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.josh.UnitTests.MathClassTest@6121c9d6]" name="tearDown" is-config="true" duration-ms="6" started-at="2018-09-06T06:09:42Z" finished-at="2018-09-06T06:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.josh.UnitTests.MathClassTest -->
+      <class name="com.josh.UnitTests.NamedOdd">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.josh.UnitTests.NamedOdd@87f383f]" name="test" duration-ms="3" started-at="2018-09-06T06:09:42Z" finished-at="2018-09-06T06:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.josh.UnitTests.NamedOdd@87f383f]" name="setUp" is-config="true" duration-ms="0" started-at="2018-09-06T06:09:42Z" finished-at="2018-09-06T06:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.josh.UnitTests.NamedOdd@87f383f]" name="tearDown" is-config="true" duration-ms="4" started-at="2018-09-06T06:09:42Z" finished-at="2018-09-06T06:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.josh.UnitTests.NamedOdd -->
+      <class name="com.josh.UnitTests.MathTestNG">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.josh.UnitTests.MathTestNG@4eb7f003]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-09-06T06:09:42Z" finished-at="2018-09-06T06:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addTest2()[pri:0, instance:com.josh.UnitTests.MathTestNG@4eb7f003]" name="addTest2" duration-ms="3" started-at="2018-09-06T06:09:42Z" finished-at="2018-09-06T06:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest2 -->
+      </class> <!-- com.josh.UnitTests.MathTestNG -->
+      <class name="com.josh.UnitTests.NamedOddTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.josh.UnitTests.NamedOddTests@eafc191]" name="setUp" is-config="true" duration-ms="0" started-at="2018-09-06T06:09:42Z" finished-at="2018-09-06T06:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.josh.UnitTests.NamedOddTests@eafc191]" name="test" duration-ms="2" started-at="2018-09-06T06:09:42Z" finished-at="2018-09-06T06:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.josh.UnitTests.NamedOddTests@eafc191]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-09-06T06:09:42Z" finished-at="2018-09-06T06:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.josh.UnitTests.NamedOddTests -->
     </test> <!-- My Tests -->
   </suite> <!-- Math Tests -->
 </testng-results>

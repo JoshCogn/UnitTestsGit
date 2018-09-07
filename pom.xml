@@ -28,6 +28,12 @@
 			<version>6.8</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.jacoco</groupId>
+			<artifactId>jacoco-maven-plugin</artifactId>
+			<version>0.8.2</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -48,6 +54,9 @@
 							<include>**/NamedOdd.java</include>
 							<include>AllTests.java</include>
 						</includes>
+	                    <systemPropertyVariables>
+	                        <browser>${env.BROWSER}</browser>
+	                    </systemPropertyVariables>
 					</configuration>
 				</plugin>
 			</plugins>
